@@ -1,0 +1,539 @@
+body {
+    background-color: white;
+    font-size: 20px;
+
+}
+
+.header {
+    background-image: url(images/water.png);
+    background-size: cover;
+    background-position: center;
+    border: 1px solid #000000;
+    width: auto;
+    height: 200px;
+    color: white;
+
+}
+
+.header p:last-child {
+    font-size: 20px;
+    color: white;
+    text-align: center;
+}
+
+.header p{
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-weight: bolder;
+
+}
+
+#nav{
+    background-color: black;
+    border: none;
+    width: auto;
+    height: 40px;
+    margin-top: 1px;
+    margin-left: 0%;
+    margin-right: 0;
+    text-align: center;
+
+}
+
+#nav a{
+    display:inline-block;
+    width: 24%;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    padding-top: 10px;
+
+}
+
+
+/* Home/Main page */
+.main{
+    background-color: white;
+    border: 1px solid #000000;
+    width: auto;
+    margin-top: 10px;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+/* Footer*/
+.footer{
+    background-color: black;
+    border: 1px solid #000000;
+    width: auto;
+    height: 30px;
+    margin-top: 2px;
+    
+
+}
+
+.footer p{
+    font-size: 12px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: white;
+    font-weight: bolder;
+}
+
+.product {
+    display: inline-block;
+    width: 23%;
+    margin: 1%;
+    text-align: center;
+    vertical-align: top;
+}
+
+.product img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+}
+
+.product  {
+    display: inline-block;
+    width: 45%;
+    margin: 2%;
+    vertical-align: top;
+    text-align: center;
+
+}
+
+.product img {
+    width: 300px;
+    height: 200px;
+
+}
+
+h1  {
+    text-align: center;
+}
+
+p {
+    font-size: 18px;
+}
+
+.product-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.product {
+    width: 350px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px lightgray;
+    text-align: left;
+}
+
+.product img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.product-info {
+    padding: 20px;
+}
+
+.product-info h2 {
+    color: blue;
+    font-size: 24px;
+}
+
+.product-info p {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.product-info h3 {
+    color: black;
+    font-size: 22px;
+}
+
+.product-info button {
+    background-color: black;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.product-info h2 {
+    text-align: center;
+}
+
+
+
+/* About us */
+.about-container {
+    text-align: center;
+    padding: 20px;
+}
+
+.about-list {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    width: 300px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px lightgray;
+    text-align: center;
+}
+
+.about-card img {
+    width: 100%;
+    height: 230px;
+    object-fit: cover;
+}
+
+.about-info {
+    padding: 10px;
+}
+
+.about-info h2 {
+    color: blue;
+    font-size: 24px;
+}
+
+.about-info p {
+    font-size: 18px;
+}
+
+.our-story {
+    max-width: 900px;
+    margin: 30px auto;
+    padding: 20px;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.our-story h2 {
+    text-align: center;
+}
+
+
+.about-container {
+    padding: 20px;
+}
+
+.about-container > h1 {
+    text-align: center;
+}
+
+.about-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.our-story {
+    width: 55%;
+    padding: 20px;
+    line-height: 1.6;
+    text-align: left;
+}
+
+.our-story h2 {
+    text-align: left;
+}
+
+.about-list {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap;
+}
+
+.about-card {
+    width: 220px;
+    background-color: white;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 3px 10px lightgray;
+    text-align: center;
+}
+
+.about-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
+
+.about-info {
+    padding: 10px;
+}
+
+.about-info h2 {
+    color: blue;
+    font-size: 22px;
+}
+
+.about-info p {
+    font-size: 16px;
+}
+
+.store-location {
+    text-align: center;
+    margin-top: 30px;
+    padding: 25px;
+    border-top: 1px solid lightgray;
+}
+
+.store-location a {
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.store-location a:hover {
+    background-color: darkblue;
+}
+
+
+/* Our Location*/
+.store-location img {
+    width: 50%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+
+/* Visit Us Section */
+
+.visit-section {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    gap: 40px;
+    width: 90%;
+    margin: 40px auto;
+    box-sizing: border-box;
+}
+
+.visit-info {
+    flex: 1;
+    width: 48%;
+    min-width: 0;
+    text-align: left;
+}
+
+.visit-map {
+    flex: 1;
+    width: 48%;
+    min-width: 0;
+    text-align: center;
+}
+
+
+.visit-map img {
+    width: 100%;
+    height: 420px;
+    object-fit: cover;
+    border: 1px solid lightgray;
+    border-radius: 10px;
+}
+
+.map-button {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 16px 25px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    border-radius: 8px;
+}
+
+.map-button:hover {
+    background-color: darkblue;
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .visit-section {
+        flex-direction: column;
+    }
+
+    .visit-info,
+    .visit-map {
+        width: 100%;
+    }
+
+    .visit-features {
+        flex-direction: column;
+    }
+
+    .visit-map img {
+        height: 300px;
+    }
+}
+
+
+
+/* Contact Us Banner */
+.contact-banner {
+    background-color: #e5f6ff;
+    text-align: center;
+    padding: 10px 10px;
+    border-bottom: 4px solid black;
+}
+
+.contact-banner h1 {
+    color: black;
+    font-size: 38px;
+    margin-bottom: 10px;
+}
+
+.contact-banner p {
+    color: #444;
+    font-size: 17px;
+    margin: 8px;
+}
+
+/* Main Contact Layout */
+.contact-container {
+    display: flex;
+    gap: 30px;
+    width: 85%;
+    margin: 40px auto;
+    align-items: stretch;
+}
+
+/* Contact Form */
+.contact-form {
+    flex: 2;
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 80, 130, 0.12);
+}
+
+.contact-form h2,
+.contact-info h2 {
+    color: black;
+    margin-top: 0;
+}
+
+.contact-form p,
+.contact-info > p {
+    color: #555;
+    line-height: 1.6;
+}
+
+.contact-form label {
+    display: block;
+    margin-top: 18px;
+    margin-bottom: 7px;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.contact-form input,
+.contact-form textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+}
+
+.contact-form input:focus,
+.contact-form textarea:focus {
+    outline: 2px solid black;
+    border-color: black;
+}
+
+.contact-form textarea {
+    resize: vertical;
+}
+
+.contact-form button {
+    width: 100%;
+    padding: 14px;
+    margin-top: 22px;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.contact-form button:hover {
+    background-color: black;
+}
+
+/* Contact Information Panel */
+.contact-info {
+    flex: 1;
+    background-color: #eaf7ff;
+    padding: 30px;
+    border-radius: 12px;
+}
+
+.contact-item {
+    padding: 12px 0;
+    border-bottom: 1px solid #c8e5f5;
+}
+
+.contact-item h3 {
+    color: black;
+    font-size: 17px;
+}
+
+.contact-item p {
+    color: #444;
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+/* Smaller Screens */
+@media (max-width: 768px) {
+    .contact-container {
+        flex-direction: column;
+        width: 90%;
+    }
+
+    .contact-banner h1 {
+        font-size: 30px;
+    }
+}
